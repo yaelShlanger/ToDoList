@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const apiUrl = "http://localhost:5273/"
-axios.defaults.baseURL="`http://localhost:5273/"
+const apiUrl = process.env.REACT_APP_API
+axios.defaults.baseURL=process.env.REACT_APP_API
 
 //errors
 axios.interceptors.request.use(function (config) {
@@ -28,17 +28,17 @@ export default {
   },
 
   addTask: async(name)=>{
-    await axios.post(`http://localhost:5273/${name}`)    
+    await axios.post(`${apiUrl}${name}`)    
     return {};
   },
 
   setCompleted: async(id, isComplete)=>{
-        await axios.put(`http://localhost:5273/${id}/${isComplete}`)
+        await axios.put(`${apiUrl}${id}/${isComplete}`)
         return{};
   },
 
   deleteTask:async(id)=>{
-        await axios.delete(`http://localhost:5273/id/${id}`)
+        await axios.delete(`${apiUrl}${id}`)
         return{};
   }
 };

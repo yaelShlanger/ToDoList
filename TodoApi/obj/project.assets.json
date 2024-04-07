@@ -1460,11 +1460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\למודים\\פרקטיקוד\\פרויקט 4\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "D:\\למודים\\פרקטיקוד\\פרויקט מספר 4\\ToDoList\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "D:\\למודים\\פרקטיקוד\\פרויקט 4\\TodoApi\\TodoApi.csproj",
+      "projectPath": "D:\\למודים\\פרקטיקוד\\פרויקט מספר 4\\ToDoList\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-      "outputPath": "D:\\למודים\\פרקטיקוד\\פרויקט 4\\TodoApi\\obj\\",
+      "outputPath": "D:\\למודים\\פרקטיקוד\\פרויקט מספר 4\\ToDoList\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1492,6 +1492,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1554,7 +1559,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

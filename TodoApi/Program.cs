@@ -19,11 +19,10 @@ builder.Services.AddCors(option => option.AddPolicy("AllowAll",
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 int count = 300;
 //GET
